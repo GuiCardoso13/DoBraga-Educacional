@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Azul: #103BC6;
+    --AmareloOG: #FFE601;
+    --Laranja: #FF5100;
+    --Branco: #f8f9fa;
+    --Preto: #000000;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplayExtraBold';
+    src: url('./fonts/FormaDJRDisplay-ExtraBold-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplay';
+    src: url('./fonts/FormaDJRDisplay-Regular-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/source-sans-pro.semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('./fonts/Source-Sans-Pro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('./fonts/Source-Sans-Pro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Fundo laranja curvado */
+.fundador {
+    position: relative;
+    background-color: #f35b04;
+}
+
+/* Fundo azul curvado */
+.valores {
+    position: relative;
+
+}
+
+.card {
+    border: none;
+}
+
+.btn-mostrar-mais {
+    background-color: #103BC6;
+    color: white;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.btn-mostrar-mais:hover {
+    background-color: #ffffff;
+    color: #103BC6;
+    border: 2px solid #103BC6;
+}
+
+.btn-comece {
+    background-color: #ffffff;
+    color: #103BC6;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-comece:hover {
+    background-color: #103BC6;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+
+@media (max-width: 767.98px) {
+    .col-md-5 {
+        width: 90%;
+    }
+
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .text-md-end {
+        text-align: center;
+    }
+}
+
+.fundo {
+    background-color: #ffffff;
+}
+
+.outro-fundo {
+    background-color: #103BC6;
+}
+
+.nav-header {
+    border-bottom: 1px solid var(--Azul);
+}
+
+.Contatos {
+    color: var(--Azul);
+}
+
+/* 
+.navbar-toggler {
+    background-color: var(--Branco);
+    border: 2px solid var(--Azul);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='Blue' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    position: relative;
+    color: var(--Azul);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--Laranja);
+    transition: color 0.3s;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background: var(--Laranja);
+    border-radius: 2px;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+    width: 30px;
+} */
+
+.btn-simulate {
+    background-color: var(--Azul);
+    color: var(--Branco);
+    border: 1px solid var(--Branco);
+    border-radius: 20px;
+    padding: 12px 12px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'FormaDJRDisplayExtraBold', sans-serif;
+}
+
+.btn-simulate:hover {
+    background-color: var(--Branco);
+    color: var(--Azul);
+    border: 1px solid var(--Azul);
+}
+
+.btn-start_now {
+    background-color: #ffffff;
+    color: var(--Azul);
+    border: 1px solid var(--Azul);
+    border-radius: 20px;
+    padding: 12px 12px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'FormaDJRDisplayExtraBold', sans-serif;
+}
+
+.btn-start_now:hover {
+    background-color: #103BC6;
+    color: var(--Branco);
+    border: 1px solid var(--Branco);
+}
+
+.logo-avatar {
+    height: 58px;
+}
+
+.logo-texto {
+    height: 40px;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    color: white;
+}

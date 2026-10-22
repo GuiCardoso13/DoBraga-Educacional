@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    padding: 20px;
+}
+
+.input_field {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.enviar {
+    padding-inline: 10px;
+}
+
+.question_field {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    margin-inline: 100px;
+}
+
+.question_card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.question_card .alternativas_field, .introducao_pergunta {
+    margin-top: 10px;
+}
+
+.alternativas_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.alternativa {
+    padding-block-end: 3px;
+}
+
+/* Adicionar CSS aqui */

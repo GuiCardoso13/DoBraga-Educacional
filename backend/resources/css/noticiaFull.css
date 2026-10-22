@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Azul: #103BC6;
+    --Cinza-Claro: #F2F3F7;
+    --Branco: #FFFFFF;
+    --Preto: #000000;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplayExtraBold';
+    src: url('./fonts/FormaDJRDisplay-ExtraBold-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplay';
+    src: url('./fonts/FormaDJRDisplay-Regular-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('./fonts/source-sans-pro.semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('./fonts/Source-Sans-Pro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('./fonts/Source-Sans-Pro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.noticia-field {
+    background-color: var(--Cinza-Claro);
+}
+
+.titulo {
+    font-family: 'FormaDJRDisplayExtraBold', sans-serif;
+    color: var(--Azul);
+}
+
+.card-noticia {
+    background-color: var(--Branco);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-noticia {
+    font-family: 'SourceSansProBold', sans-serif;
+    font-size: 32px;
+}
+
+.imagem-rotulo {
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagem-noticia {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+
+    /* position: static; */
+    z-index: 1;
+}
+
+.p-rotulo {
+    background-color: var(--Azul);
+    display: inline-block;
+    width: fit-content;
+
+    position: relative;
+    top: -18px;
+    z-index: 2;
+
+    font-family: 'SourceSansProBold', sans-serif;
+    font-size: 18px;
+    color: var(--Branco);
+    text-transform: uppercase;
+}
+
+.descricao {
+    font-family: 'SourceSansProRegular', sans-serif;
+    font-size: 18px;
+}
+
+.botao-voltar {
+    color: var(--Azul);
+    font-family: 'FormaDJRDisplayExtraBold', sans-serif;
+    background-color: var(--Branco);
+    border: solid 2.5px var(--Azul);
+    border-radius: 20px;
+    text-decoration: none;
+
+    font-size: 15px;
+}
+
+.botao-voltar:hover {
+    background-color: var(--Azul);
+    color: var(--Branco);
+    transition: 0.3s;
+}
+
+.links {
+    font-family: 'SourceSansProRegular', sans-serif;
+    font-size: 18px;
+}
+
+.media:empty {
+    display: none;
+}
+
+.dobraga-info {
+    background: linear-gradient(#194AED 0%, #103BC6 33%, #0E309D 73%, #04289E 100%);
+}
+
+.img-avatar {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.img-avatar-s {
+    width: 100%;
+    overflow: hidden;
+}

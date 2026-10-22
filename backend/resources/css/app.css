@@ -1,0 +1,714 @@
+.lado-esquerdo {
+    background-color: #3F5EC6;
+}
+
+.titulologin {
+    color: #103BC6;
+    font-weight: bold;
+    font-size: large;
+}
+
+.botaologin {
+    background-color: #103BC6;
+    border-radius: 20px;
+}
+
+.formulario {
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Azul: #103BC6;
+    --AmareloOG: #FFE601;
+    --Laranja: #FF5100;
+    --Branco: #f8f9fa;
+    --Preto: #000000;
+    --Vermelho: #E40000;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplayExtraBold';
+    src: url('../../public/fonts/FormaDJRDisplay-ExtraBold-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplayBold';
+    src: url('../../public/fonts/FormaDJRBanner-Bold-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FormaDJRDisplay';
+    src: url('../../public/fonts/FormaDJRDisplay-Regular-Testing.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProSemiBold';
+    src: url('../../public/fonts/source-sans-pro.semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url('../../public/fonts/Source-Sans-Pro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../../public/fonts/Source-Sans-Pro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo-avatar {
+    height: 58px;
+}
+
+.logo-texto {
+    height: 40px;}
+
+.btn-start_now {
+    background-color: #ffffff;
+    color: var(--Azul);
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 12px 12px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'FormaDJRDisplayExtraBold', sans-serif;
+}
+
+.btn-start_now:hover {
+    background-color: #103BC6;
+    color: var(--Branco);
+    border: 1px solid var(--Branco);
+}
+
+.btn-simulate {
+    background-color: var(--Azul);
+    color: var(--Branco);
+    border: 1px solid var(--Branco);
+    border-radius: 20px;
+    padding: 12px 12px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'FormaDJRDisplayExtraBold', sans-serif;
+}
+
+.btn-simulate:hover {
+    background-color: var(--Branco);
+    color: var(--Azul);
+    border: 1px solid var(--Branco);
+}
+
+.btn-noticias{
+    background-color: var(--Azul);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn-noticias:hover{
+    background-color: #000286;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-instagram{
+    background: linear-gradient(#833AB4 0%, #FD1D1D 50%, #FCB045 100%); 
+    border-radius: 10px; 
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn-instagram:hover{
+    background: linear-gradient(#8c35c6 0%, #b71f1f 50%, #e0a045 100%); 
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-youtube{
+    background-color: var(--Vermelho); 
+    color: white; 
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-youtube:hover{
+    background-color: #a80000;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-loc{
+    background-color: var(--Branco);
+    color: var(--Azul); 
+    border-radius: 10px;
+    border: 1px solid var(--Azul);
+}
+
+.btn-loc:hover{
+    background-color: var(--Azul);
+    color: white;
+    
+    transition: 0.3s;
+}
+
+.btn-comece {
+    background-color: #ffffff;
+    color: #103BC6;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-comece:hover {
+    background-color: #103BC6;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;   
+  right: 20px;    
+  background-color: #25d366; 
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 1000; 
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.garota-metodologia {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 250px; 
+}
+
+
+.espaco-card {
+  background-color: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  aspect-ratio: 16/9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Faz a imagem preencher o card mantendo proporção e cortando excessos */
+.espaco-card .espaco-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 15px;
+}
+
+/* Placeholder (empty) card styling */
+.espaco-card.empty {
+  background-color: rgba(255,255,255,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.espaco-card.empty .espaco-empty {
+  color: rgba(255,255,255,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.espaco-card.empty .espaco-empty i {
+  font-size: 2rem;
+}
+
+/* Professores cards */
+.prof-card {
+  background: #194AED;
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 24px 16px;
+  text-align: center;
+  position: relative;
+  min-height: 320px;
+  min-width: 250px;
+  max-width: 320px;
+  width: 100%;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  overflow: hidden; /* mudou de visible para hidden para cortar a imagem que extrapola */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.prof-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+.prof-card-front, .prof-card-back {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  transition: opacity 0.3s;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* remova o auto, use hidden */
+}
+
+/* imagem ocupa todo o card */
+.prof-card-front > .prof-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px; 
+  border: none; 
+  z-index: 1;
+}
+
+/* garante que nomes e textos apareçam sobre a imagem */
+.prof-card-front > :not(.prof-img) {
+  z-index: 2;
+  color: #fff; /* mantém texto legível sobre a imagem */
+}
+
+/* mantém ordem de empilhamento correta para o efeito hover */
+.prof-card-front {
+  z-index: 2;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  will-change: opacity, transform;
+}
+.prof-card-back {
+  background: #fff;
+  color: #194AED;
+  border-radius: 18px;
+  opacity: 0;
+  z-index: 3;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+/* Hover / focus para revelar o verso do card e ocultar a frente (acessível via teclado) */
+
+/* mostra o verso ao passar mouse ou ao focar (tab) */
+.prof-card:hover .prof-card-back,
+.prof-card:focus-within .prof-card-back,
+.prof-card:focus .prof-card-back {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* oculta a frente enquanto o verso está visível */
+.prof-card:hover .prof-card-front,
+.prof-card:focus-within .prof-card-front,
+.prof-card:focus .prof-card-front {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* opcional: posiciona nome e matéria no rodapé da frente para aparência mais limpa */
+.prof-nome {
+  font-family: 'FormaDJRDisplayBold', sans-serif;
+  font-size: 1.1rem;
+  margin-top: 250px;
+}
+.prof-materia {
+  font-size: 1rem;
+  font-family: 'SourceSansProRegular', sans-serif;
+}
+.prof-nome-back {
+  font-family: 'FormaDJRDisplayBold', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.prof-desc {
+  font-size: 0.95rem;
+  font-family: 'SourceSansProRegular', sans-serif;
+  text-align: center;
+  word-break: break-word;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.professores-bg {
+  background: var(--Azul);
+  width: 100%;
+  
+}
+
+
+@media (max-width: 768px) {
+  .garota-metodologia {
+    position: static;
+    display: block;
+    margin: 20px auto 0;
+    max-width: 80%;
+    margin-bottom: 0; 
+  }
+
+  .fundador {
+    padding-bottom: 0;
+  }
+  .prof-card {
+    min-width: 90vw;
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+  .prof-card-front, .prof-card-back {
+    padding: 16px 8px;
+  }
+  .prof-desc {
+    font-size: 1rem;
+  }
+  .carousel-control-prev.position-static,
+  .carousel-control-next.position-static {
+    position: static !important;
+    margin: 0 16px;
+  }
+  .professores-bg .carousel-inner .carousel-item .row {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .professores-bg .carousel-inner .carousel-item .col-md-4 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+  .professores-bg .carousel-inner .carousel-item .prof-card {
+    min-width: 90vw;
+    max-width: 95vw;
+    margin: 0 auto;
+  }
+  /* Oculta os outros cards do slide no mobile, mostra só o primeiro */
+  .professores-bg .carousel-inner .carousel-item .col-md-4:not(:first-child) {
+    display: none !important;
+  }
+}
+
+
+
+
+.faq-section {
+  background: #f7f8fa;
+}
+.faq-card {
+  transition: box-shadow 0.2s;
+}
+.faq-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+}
+.faq-question {
+  cursor: pointer;
+}
+.faq-answer {
+  overflow: hidden;
+}
+.faq-icon.rotate {
+  transform: rotate(180deg);
+}
+@media (max-width: 768px) {
+  .faq-answer .ratio {
+    max-width: 100%;
+    margin-top: 16px;
+  }
+}
+
+.localizacao-card {
+  border-radius: 18px;
+  border: 2px solid #194AED;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.localizacao-section {
+  background: #F4511E;
+}
+@media (max-width: 768px) {
+  .localizacao-card {
+    padding: 0.5rem;
+  }
+  .localizacao-card .p-3 {
+    padding: 0.5rem !important;
+  }
+}
+
+.nav-link {
+  position: relative;
+  color: var(--Branco);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.nav-link:hover{
+  color: var(--Branco);
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background: var(--Branco);
+  border-radius: 2px;
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link:focus::after {
+  width: 30px;
+}
+
+
+
+
+
+/* Menu que scrolla junto */
+
+/* Desktop header */
+header.d-none.d-xl-block {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+/* Mobile header */
+header.d-block.d-xl-none {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+/* Placeholder do mesmo tamanho do header */
+.header-placeholder.d-none.d-xl-block {
+    display: none;
+}
+.header-placeholder.d-block.d-xl-none {
+    display: none;
+}
+
+@media (min-width: 1200px) { /* Desktop */
+    .header-placeholder.d-none.d-xl-block {
+        display: block;
+        height: 140px; /* altura do header desktop */
+    }
+}
+
+@media (max-width: 1199.98px) { /* Mobile */
+    .header-placeholder.d-block.d-xl-none {
+        display: block;
+        height: 100px; /* altura do header mobile */
+    }
+}
+
+.btn-outline-primary {
+  color: var(--Azul);
+  border: solid var(--Azul), 1px;
+}
+
+.btn-outline-primary:hover {
+  color: var(--Branco);
+  background-color: var(--Azul);
+  border: solid var(--Azul), 1px;
+  outline: none;
+}
+
+/* Ajustes para evitar mesclagem de texto no footer */
+.rodapeeee .row > [class*="col-"] {
+    min-width: 0; /* permite que colunas flex encolham corretamente */
+}
+
+/* permitir quebra natural quando necessário, mas evitar quebras forçadas estranhas */
+.rodapeeee p,
+.rodapeeee .small,
+.rodapeeee li {
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+/* Manter o e-mail de contato em uma linha no desktop para evitar mesclagem visual */
+.rodapeeee .contact-email {
+    white-space: nowrap;
+}
+
+/* Mobile: permitir quebra do e-mail para não causar overflow */
+@media (max-width: 767.98px) {
+  .rodapeeee .contact-email {
+    white-space: normal;
+  }
+}
+
+/* Professores cards */
+.aprovados-card {
+  background: #194AED;
+  color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 24px 16px;
+  text-align: justify;
+  position: relative;
+  min-height: 320px;
+  min-width: 250px;
+  max-width: 320px;
+  width: 100%;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  overflow: hidden; /* mudou de visible para hidden para cortar a imagem que extrapola */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.aprovados-card:hover {
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+.aprovados-card-front, .aprovados-card-back {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: justify;
+  padding: 24px 16px;
+  transition: opacity 0.3s;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* remova o auto, use hidden */
+}
+
+/* imagem ocupa todo o card */
+.aprovados-card-front > .aprovados-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 18px; 
+  border: none; 
+  z-index: 1;
+}
+
+/* garante que nomes e textos apareçam sobre a imagem */
+.aprovados-card-front > :not(.aprovados-img) {
+  z-index: 2;
+  color: #fff; /* mantém texto legível sobre a imagem */
+}
+
+/* mantém ordem de empilhamento correta para o efeito hover */
+.aprovados-card-front {
+  z-index: 2;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  will-change: opacity, transform;
+}
+.aprovados-card-back {
+  background: #fff;
+  color: #194AED;
+  border-radius: 18px;
+  opacity: 0;
+  z-index: 3;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.aprovados-card-back span{
+  color: #000000;
+}
+/* Hover / focus para revelar o verso do card e ocultar a frente (acessível via teclado) */
+
+/* mostra o verso ao passar mouse ou ao focar (tab) */
+.aprovados-card:hover .aprovados-card-back,
+.aprovados-card:focus-within .aprovados-card-back,
+.aprovados-card:focus .aprovados-card-back {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* oculta a frente enquanto o verso está visível */
+.aprovados-card:hover .aprovados-card-front,
+.aprovados-card:focus-within .aprovados-card-front,
+.aprovados-card:focus .aprovados-card-front {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* opcional: posiciona nome e matéria no rodapé da frente para aparência mais limpa */
+.aprovados-nome {
+  font-family: 'FormaDJRDisplayBold', sans-serif;
+  font-size: 1.1rem;
+  margin-top: 250px;
+}
+.aprovados-materia {
+  font-size: 1rem;
+  font-family: 'SourceSansProRegular', sans-serif;
+}
+.aprovados-nome-back {
+  font-family: 'FormaDJRDisplayBold', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+.aprovados-desc {
+  font-size: 0.95rem;
+  font-family: 'SourceSansProRegular', sans-serif;
+  text-align: center;
+  word-break: break-word;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+.aprovados-bg {
+  background: var(--Azul);
+  width: 100%;
+  
+}
